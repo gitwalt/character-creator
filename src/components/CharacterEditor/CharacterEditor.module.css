@@ -1,9 +1,11 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -30,8 +32,17 @@
   left: 60%;
   bottom: 5%;
   min-height: 500px;
-  background: #dedede;
 }
+
+.perspectiveEffect {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  height: 40%;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
+}
+
 /*
 .characterWrapper {
   position: fixed;
