@@ -8,6 +8,7 @@
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -56,4 +57,5 @@
 }*/
 
 .controlColumn {
+  width: 50%;
 }
